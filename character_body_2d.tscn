@@ -11,3 +11,13 @@ script = ExtResource("1_ij6vw")
 [node name="Icon" type="Sprite2D" parent="." unique_id=1707030386]
 position = Vector2(414, 272)
 texture = ExtResource("2_ghijl")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=705992682]
+
+[node name="Icon2" type="Sprite2D" parent="." unique_id=388297869]
+position = Vector2(817, 392)
+texture = ExtResource("2_ghijl")
+
+[node name="Icon3" type="Sprite2D" parent="." unique_id=1723397110]
+position = Vector2(1170, 95)
+texture = ExtResource("2_ghijl")
