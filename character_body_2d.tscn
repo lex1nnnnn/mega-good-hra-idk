@@ -1,23 +1,21 @@
 [gd_scene format=3 uid="uid://dljtaec7vdo6y"]
 
-[ext_resource type="Script" uid="uid://e03nvk2gapam" path="res://character_body_2d.gd" id="1_ij6vw"]
 [ext_resource type="Texture2D" uid="uid://cm5x4tyso5by3" path="res://icon.svg" id="2_ghijl"]
 
-[node name="CharacterBody2D" type="CharacterBody2D" unique_id=1458793486]
-script = ExtResource("1_ij6vw")
+[node name="Node2D" type="Node2D" unique_id=660764072]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=319926889]
-
-[node name="Icon" type="Sprite2D" parent="." unique_id=1707030386]
-position = Vector2(414, 272)
+[node name="Icon" type="Sprite2D" parent="." unique_id=230279090]
+position = Vector2(231, 250)
 texture = ExtResource("2_ghijl")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=705992682]
-
-[node name="Icon2" type="Sprite2D" parent="." unique_id=388297869]
-position = Vector2(817, 392)
+[node name="Icon2" type="Sprite2D" parent="." unique_id=113186127]
+position = Vector2(631, 396)
 texture = ExtResource("2_ghijl")
 
-[node name="Icon3" type="Sprite2D" parent="." unique_id=1723397110]
-position = Vector2(1170, 95)
+[node name="Icon3" type="Sprite2D" parent="." unique_id=1684040174]
+position = Vector2(849, 160)
+texture = ExtResource("2_ghijl")
+
+[node name="Icon4" type="Sprite2D" parent="." unique_id=851512755]
+position = Vector2(584, 166)
 texture = ExtResource("2_ghijl")
